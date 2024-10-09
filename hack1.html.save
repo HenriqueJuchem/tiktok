@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aceite os Termos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+    <script>
+        function aceitarTermos() {
+            const linkTikTok = "https://www.tiktok.com"; // Link para o TikTok
+            window.location.href = linkTikTok; // Redireciona o usuário para o TikTok
+        }
+    </script>
+</head>
+<body>
+    <h1>Aceite os Termos</h1>
+    <p>Para continuar, por favor, aceite os termos e condições do TikTok.</p>
+    <button onclick="aceitarTermos()">Aceitar e Ir para o TikTok</button>
+</body>
+</html>
